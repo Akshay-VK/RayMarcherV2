@@ -6,6 +6,6 @@ export class sphere{
         this.radius=radius;
     }
     dist(p){
-        vec3.magnitude(vec3.sub(p,this,c))-this.radius;
+        vec3.magnitude(vec3.sub(p,this.c))-this.radius;
     }
 }
